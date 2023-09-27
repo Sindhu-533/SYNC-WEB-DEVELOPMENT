@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a369dd966.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+  
+<body>
+    <nav>
+        <div class="heading">Product Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+  
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Signup">Sign Up</a>
+    </div>
+  
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Online Learning</h1>
+            <button>
+                <a href="page.html">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"images/side.gif"
+                width="600">
+        </div>
+    </div>
+  
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <p>
+                        The term DSA stands for Data 
+                        Structures and Algorithms. As 
+                        the name itself suggests, it 
+                        is a combination of two 
+                        separate yet interrelated 
+                        topics.
+                    </p>
+                </div>
+                <div class="box">
+  
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HTML
+                        </a>
+                    </div>
+                    <p>
+                        HTML stands for HyperText 
+                        Markup Language. It is used 
+                        to design web pages using 
+                        the markup language.
+                    </p>
+                </div>
+
+                <div class="box">
+  
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            CSS
+                        </a>
+                    </div>
+                    <p>
+                        CSS stands for Cascading 
+                        Style Sheet. It is used 
+                        to define styles for your web pages.
+
+                    </p>
+                </div>
+  
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            JavaScript
+                        </a>
+                    </div>
+                    <p>
+                        JavaScript (JS) is the most 
+                        popular lightweight, interpreted 
+                        compiled programming language.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Bootstrap
+                        </a>
+                    </div>
+                    <p>
+                        Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            SQL
+                        </a>
+                    </div>
+                    <p>
+                        SQL stands for Structure Query Language which
+                        is a database management system used to create and manage servers.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+  
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button id="Signup">Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            No-123, 11th Floor, Dolittle 
+                            Corporate Tower, 
+                            Chennai, Tamil Nadu.
+                        </div>
+                        <div class="title1" id="About">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all!!!
+                            We welcome you to the platform where we
+                            consistently strive to offer the best 
+                            of education. This platform has been 
+                            designed for every student wishing to 
+                            expand their knowledge, share their 
+                            knowledge and is ready to grab their 
+                            dream job. We have millions of articles,
+                            live as well as online courses, thousands 
+                            of tutorials and much more...
+                            Thank you for choosing and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="http://127.0.0.1:5500/Landing%20Page/index.html" 
+                    target="_blank">
+                    Online Learning
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+  
+</html>
