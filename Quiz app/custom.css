@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+    background-image: url(d3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.heading{
+    padding-top: 2%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    padding-top: 0%;
+    width: 35rem;
+    box-shadow: 0px 0px 5px #F47C7C;
+    display: flex;
+    background-color: #e6e3e3;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col {
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+}
+
+#submit {
+    width: 100%;
+    background-color: #235952;
+    transition: 0.5s;
+    color: #3C2317;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #c0adad;
+}
+
+.box {
+    box-shadow: 0px -1px 1px #235952;
+    width: 100%;
+}
